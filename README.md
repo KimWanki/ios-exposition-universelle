@@ -24,6 +24,13 @@ UML 작성 시 Codable을 채택했으나, Encodable 프로토콜은 실제로 �
 
 <br>
 
+#### 코드 리뷰 
+--- 
+[Json 포맷과 매칭할 타입 구현](https://github.com/yagom-academy/ios-exposition-universelle/pull/81)
+
+[Json 데이터 파싱 미 TableView 구현](https://github.com/yagom-academy/ios-exposition-universelle/pull/98)
+
+
 💡프로젝트에서의 경험
 
 - [x] Codable protocol 
