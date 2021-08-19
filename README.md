@@ -17,10 +17,14 @@
 
 ### Project UML
 <br>
-![Entity Relationship Diagram](https://user-images.githubusercontent.com/80380535/124548574-e2533100-de68-11eb-9df1-d957983ed941.png)
 
+![image](https://user-images.githubusercontent.com/80380535/124548574-e2533100-de68-11eb-9df1-d957983ed941.png)
 
-프로젝트에서의 경험
+UML 작성 시 Codable을 채택했으나, Encodable 프로토콜은 실제로 사용핮 않아 Decodable 프로토콜만 사용하도록 변경했습니다.
+
+<br>
+
+💡프로젝트에서의 경험
 
 - [x] Codable protocol 
 - [x] JSON 데이터 파싱 후 테이블뷰 표시
@@ -29,8 +33,8 @@
 
 
 <br><br>
+
 ## issue & what I learn
----
 
 ### 프로젝트 진행 중 커뮤니케이션
 
@@ -39,7 +43,7 @@
 2. 프로젝트 중 팀원의 건강 악화로 예상했던 일자보다 조금 늦어졌습니다. 하지만 혼자 하는 것이 아니기 때문에 프로젝트를 잠시 중단했고, 이후 프로젝트를 진행하면서 요구되는 내용을 미리 학습하고, 이후 팀원이 지금 진행되고 있는 프로젝트에서의 흐름을 잃지 않도록, 필요하다면 설명을 더하고, 제가 **찾은 자료나 관련된 키워드를 공유**했습니다. 팀원 모두가 충분히 이해를 할 수 있는 상태에서 프로젝트 진행을 목표로 했습니다.
 <br>
 
-### 뷰 사이 데이터 이동 방법 중 델리게이트를 활용
+### 💡 뷰 사이 데이터 이동 방법 중 델리게이트를 활용
 
 ```swift
 protocol SendExhibitionItemDelegate: AnyObject {
@@ -77,7 +81,7 @@ extension ExhibitionItemListTableViewController: SendExhibitionItemDelegate {
 
 <br>
 
-#### decoding UnitTest
+#### 💡decoding UnitTest
 
 데이터를 서버에서 받아오지 않고, 가지고 있는 Json 데이터를 가지고 있는 형식으로 작성했습니다.
 ```swift
