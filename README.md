@@ -20,7 +20,7 @@
 
 ![image](https://user-images.githubusercontent.com/80380535/124548574-e2533100-de68-11eb-9df1-d957983ed941.png)
 
-UML 작성 시 Codable을 채택했으나, Encodable 프로토콜은 실제로 사용핮 않아 Decodable 프로토콜만 사용하도록 변경했습니다.
+UML 작성 시 Codable을 채택했으나, Encodable 프로토콜은 실제로 사용하지 않아 Decodable 프로토콜만 사용하도록 변경했습니다.
 
 <br>
 
@@ -28,7 +28,7 @@ UML 작성 시 Codable을 채택했으나, Encodable 프로토콜은 실제로 �
 --- 
 [Json 포맷과 매칭할 타입 구현](https://github.com/yagom-academy/ios-exposition-universelle/pull/81)
 
-[Json 데이터 파싱 미 TableView 구현](https://github.com/yagom-academy/ios-exposition-universelle/pull/98)
+[Json 데이터 파싱 및 TableView 구현](https://github.com/yagom-academy/ios-exposition-universelle/pull/98)
 
 
 💡프로젝트에서의 경험
@@ -133,3 +133,5 @@ extension ExpositionInformation: Encodable {
     }
 }
 ```
+
+<br>
